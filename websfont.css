@@ -1,0 +1,17 @@
+/* 
+100 thin
+200 ExtraLight
+300 Light
+400 Regular
+500 Medium
+600 SemiBold
+700 Bold
+800 ExtraBold
+900 Black
+*/
+
+/* 지마켓산스체(gmarket) : 300, 500, 700 */
+@import url(https://websfont.github.io/gmarket/gmarket.css);
+
+/* 마루부리체(maruburi) : 200, 300, 400, 500, 700 */
+@import url(https://websfont.github.io/maruburi/maruburi.css);
