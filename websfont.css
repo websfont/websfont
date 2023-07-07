@@ -25,7 +25,7 @@
 /* 더잠실체(theJamsil) : 100, 300, 400, 500, 700, 800 */
 @import url(https://websfont.github.io/theJamsil/theJamsil.css);
 
-/* 나눔스퀘어네오(nanumSquareNeo) : 300, 400, 700, 800, 900 */
+/* 나눔스퀘어네오체(nanumSquareNeo) : 300, 400, 700, 800, 900 */
 @import url(https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css);
 
 /* 창원단감아삭체(dangamAsac) : normal : 두꺼운 폰트 */
@@ -58,7 +58,7 @@
 /* 잘난체(jalnan) : normal : 두꺼운 폰트 */
 @import url(https://websfont.github.io/jalnan/jalnan.css);
 
-/* 검은고딕(blackGothic) : normal : 두꺼운 폰트 */
+/* 검은고딕체(blackGothic) : normal : 두꺼운 폰트 */
 @import url(https://websfont.github.io/blackGothic/blackGothic.css);
 
 /* BC카드체(bcCard) : 300, 700 */
@@ -114,3 +114,156 @@
 
 /* 경기천년제목체(gyeonggiTitle) : 300, 500, 700 */
 @import url(https://websfont.github.io/gyeonggiTitle/gyeonggiTitle.css);
+
+/* 원스토어 모바일고딕 본문체(oneMobile) : 300, 400, 700 */
+@import url(https://websfont.github.io/oneMobile/oneMobile.css);
+
+/* 원스토어 모바일고딕 제목체(oneMobileTitle) */
+@import url(https://websfont.github.io/oneMobileTitle/oneMobileTitle.css);
+
+/* 원스토어 모바일고딕 POP체(oneMobilePop) */
+@import url(https://websfont.github.io/oneMobilePop/oneMobilePop.css);
+
+/* 야놀자 야체(yache) : 400, 700 */
+@import url(https://websfont.github.io/yache/yache.css);
+
+/* 쿠키런체(cookieRun) */
+@import url(https://websfont.github.io/cookieRun/cookieRun.css);
+
+/* 배민 주아체(jua) */
+@import url(https://websfont.github.io/jua/jua.css);
+
+/* 배민 도현체(dohyeon) */
+@import url(https://websfont.github.io/dohyeon/dohyeon.css);
+
+/* 배민 연성체(yeonsung) */
+@import url(https://websfont.github.io/yeonsung/yeonsung.css);
+
+/* 배민 한나체 Air(hannaAir) */
+@import url(https://websfont.github.io/hannaAir/hannaAir.css);
+
+/* 배민 을지로10년후체(euljiro10) */
+@import url(https://websfont.github.io/euljiro10/euljiro10.css);
+
+/* 배민 을지로오래오래체(oraeorae) */
+@import url(https://websfont.github.io/oraeorae/oraeorae.css);
+
+/* 배민 기랑해랑체(kiRang) */
+@import url(https://websfont.github.io/kiRang/kiRang.css);
+
+/* 배민 한나체 Pro(hannaPro) */
+@import url(https://websfont.github.io/hannaPro/hannaPro.css);
+
+/* 배민 한나는열한살체(hanna11) */
+@import url(https://websfont.github.io/hanna11/hanna11.css);
+
+/* 조선신명조체(chosunSm) */
+@import url(https://websfont.github.io/chosunSm/chosunSm.css);
+
+/* 조선굵은명조체(chosunKm) */
+@import url(https://websfont.github.io/chosunKm/chosunKm.css);
+
+/* 조선가는고딕체(chosunSg) */
+@import url(https://websfont.github.io/chosunSg/chosunSg.css);
+
+/* 조선굵은고딕체(chosunKg) */
+@import url(https://websfont.github.io/chosunKg/chosunKg.css);
+
+/* 조선견고딕체(chosunBg) */
+@import url(https://websfont.github.io/chosunBg/chosunBg.css);
+
+/* 조선굴림체(chosunGu) */
+@import url(https://websfont.github.io/chosunGu/chosunGu.css);
+
+/* 조선궁서체(chosunGs) */
+@import url(https://websfont.github.io/chosunGs/chosunGs.css);
+
+/* 조선로고체(chosunLo) */
+@import url(https://websfont.github.io/chosunLo/chosunLo.css);
+
+/* 조선일보명조체(chosunNm) */
+@import url(https://websfont.github.io/chosunNm/chosunNm.css);
+
+/* 잘풀리는 오늘체(today) */
+@import url(https://websfont.github.io/today/today.css);
+
+/* 잘풀리는 하루체(day) */
+@import url(https://websfont.github.io/day/day.css);
+
+/* 빛의 계승자체(heirOfLight) : 400, 700 */
+@import url(https://websfont.github.io/heirOfLight/heirOfLight.css);
+
+/* 스웨거체(swagger) */
+@import url(https://websfont.github.io/swagger/swagger.css);
+
+/* 카페24 슈퍼매직 Bold체(superMagicBold) */
+@import url(https://websfont.github.io/superMagicBold/superMagicBold.css);
+
+/* 카페24 슈퍼매직 Regular체(superMagicRegular) */
+@import url(https://websfont.github.io/superMagicRegular/superMagicRegular.css);
+
+/* 카페24 클래식타입체(classicType) */
+@import url(https://websfont.github.io/classicType/classicType.css);
+
+/* 카페24 써라운드체(ssurround) */
+@import url(https://websfont.github.io/ssurround/ssurround.css);
+
+/* 카페24 써라운드 에어체(ssurroundAir) */
+@import url(https://websfont.github.io/ssurroundAir/ssurroundAir.css);
+
+/* 카페24 아네모네 에어체(ohSquareAir) */
+@import url(https://websfont.github.io/ohSquareAir/ohSquareAir.css);
+
+/* 카페24 아네모네체(ohSquare) */
+@import url(https://websfont.github.io/ohSquare/ohSquare.css);
+
+/* 카페24 빛나는별체(shiningStar) */
+@import url(https://websfont.github.io/shiningStar/shiningStar.css);
+
+/* 카페24 고운밤체(prettyNight) */
+@import url(https://websfont.github.io/prettyNight/prettyNight.css);
+
+/* 카페24 당당해체(dangDangHae) */
+@import url(https://websfont.github.io/dangDangHae/dangDangHae.css);
+
+/* 카페24 단정해체(danJungHae) */
+@import url(https://websfont.github.io/danJungHae/danJungHae.css);
+
+/* 카페24 심플해체(simpleHae) */
+@import url(https://websfont.github.io/simpleHae/simpleHae.css);
+
+/* 카페24 동동체(dongdong) */
+@import url(https://websfont.github.io/dongdong/dongdong.css);
+
+/* 카페24 쑥쑥체(ssukssuk) */
+@import url(https://websfont.github.io/ssukssuk/ssukssuk.css);
+
+/* 카페24 숑숑체(syongsyong) */
+@import url(https://websfont.github.io/syongsyong/syongsyong.css);
+
+/* 넥슨Lv.1 고딕체(nexonLv1) : 300, 400, 700 */
+@import url(https://websfont.github.io/nexonLv1/nexonLv1.css);
+
+/* 넥슨Lv.2 고딕체(nexonLv2) : 300, 400, 500, 700 */
+@import url(https://websfont.github.io/nexonLv2/nexonLv2.css);
+
+/* 넥슨 풋볼고딕체(nexonFootball) : 300, 700 */
+@import url(https://websfont.github.io/nexonFootball/nexonFootball.css);
+
+/* 넥슨 배찌체(nexonBazzi) */
+@import url(https://websfont.github.io/nexonBazzi/nexonBazzi.css);
+
+/* 넥슨 메이플스토리체(nexonMaplestory) : 300, 700 */
+@import url(https://websfont.github.io/nexonMaplestory/nexonMaplestory.css);
+
+/* Y너만을 비춤체(ySpotLight) */
+@import url(https://websfont.github.io/ySpotLight/ySpotLight.css);
+
+/* Y이드스트릿체(yDestreet) */
+@import url(https://websfont.github.io/yDestreet/yDestreet.css);
+
+/* Y유니버스체(yUniverse) */
+@import url(https://websfont.github.io/yUniverse/yUniverse.css);
+
+/* Y콤퓨타체(yComputer) */
+@import url(https://websfont.github.io/yComputer/yComputer.css);
