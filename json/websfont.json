@@ -1,0 +1,147 @@
+[
+    {
+        "name": "지마켓산스체",
+        "name_eng": "gmarket",
+        "weight": ["300", "500", "700"],
+        "link": "https://wess.tistory.com/550",
+        "git": "https://github.com/websfont/gmarket"
+    },{
+        "name": "롯데리아 촵땡겨체",
+        "name_eng": "lotteriaChab",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/551",
+        "git": "https://github.com/websfont/lotteriaChab"
+    },{
+        "name": "롯데리아 딱붙어체",
+        "name_eng": "lotteriaDdag",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/552",
+        "git": "https://github.com/websfont/lotteriaDdag"
+    },{
+        "name": "티몬체",
+        "name_eng": "tmon",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/553",
+        "git": "https://github.com/websfont/tmon"
+    },{
+        "name": "더잠실체",
+        "name_eng": "theJamsil",
+        "weight": ["100", "300", "400", "500", "700", "800"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/theJamsil"
+    },{
+        "name": "나눔스퀘어네오체",
+        "name_eng": "nanumSquareNeo",
+        "weight": ["300", "400", "700", "800", "900"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/nanumSquareNeo"
+    },{
+        "name": "창원단감아삭체",
+        "name_eng": "dangamAsac",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/dangamAsac"
+    },{
+        "name": "쿠키런체",
+        "name_eng": "cookieRun",
+        "weight": ["400", "700", "900"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/cookieRun"
+    },{
+        "name": "베스킨라빈스체",
+        "name_eng": "baskinRobbins",
+        "weight": ["400", "700"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/baskinRobbins"
+    },{
+        "name": "을유1945체",
+        "name_eng": "eulyoo1945",
+        "weight": ["400", "600"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/eulyoo1945"
+    },{
+        "name": "땅스부대찌개",
+        "name_eng": "budaeJjigae",
+        "weight": ["300", "500", "700"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/eulyoo1945"
+    },{
+        "name": "이서윤체",
+        "name_eng": "leeSeoYun",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/leeSeoYun"
+    },{
+        "name": "심경하체",
+        "name_eng": "simKyungHa",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/simKyungHa"
+    },{
+        "name": "전화선체",
+        "name_eng": "jeonHwaSeon",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/jeonHwaSeon"
+    },{
+        "name": "읏찬체",
+        "name_eng": "okChan",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/okChan"
+    },{
+        "name": "읏뚱체",
+        "name_eng": "okDdung",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/okDdung"
+    },{
+        "name": "읏궁체",
+        "name_eng": "okGung",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/okGung"
+    },{
+        "name": "잘난체",
+        "name_eng": "jalnan",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/jalnan"
+    },{
+        "name": "BC카드체",
+        "name_eng": "bcCard",
+        "weight": ["300", "700"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/bcCard"
+    },{
+        "name": "페이북체",
+        "name_eng": "payBooc",
+        "weight": ["300", "500", "700", "800"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/payBooc"
+    },{
+        "name": "넥센 타이어체",
+        "name_eng": "nexenTire",
+        "weight": ["400", "700"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/nexenTire"
+    },{
+        "name": "엄마까투리체",
+        "name_eng": "katuri",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/katuri"
+    },{
+        "name": "월영교체",
+        "name_eng": "wolyeonggyo",
+        "weight": ["normal"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/wolyeonggyo"
+    },{
+        "name": "이사만루체",
+        "name_eng": "esaManru",
+        "weight": ["300", "500", "700"],
+        "link": "https://wess.tistory.com/554",
+        "git": "https://github.com/websfont/esaManru"
+    },
+]

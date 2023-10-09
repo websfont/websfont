@@ -16,10 +16,90 @@
             font-weight: normal;
             font-family: inherit;
         }
+        body.dark-mode #header h1 {
+            color: #000;
+            background-color: #fff;
+        }
+        body.dark-mode #main {
+            background-color: #fff;
+        }
+        body.dark-mode #main .font {
+            border: 1px solid #3e3e3e73;
+        }
+        body.dark-mode #main .font h3 {
+            color: #000;
+        }
+        body.dark-mode #main .font > div {
+            color: #000;
+        }
+        body.dark-mode #main .font__search input {
+            background-color: #fff;
+            border: 1px solid #bdbdbd;
+        }
+        body.dark-mode #main .font__style h3 {
+            color: #000;
+        }
+        body.dark-mode #main .font {
+            transition: all 0.3s;
+        }
+        body.dark-mode #main .font:hover {
+            background-color: #000;
+        }
+        body.dark-mode #main .font:hover h3 {
+            color: #fff;
+        }
+        body.dark-mode #main .font:hover > div {
+            color: #fff;
+        }
+        
 
+        #header h1 {
+            color: #fff;
+            background-color: #0B0C0C;
+            font-family: 'gmarket';
+            font-weight: 300;
+            font-size: 20px;
+            padding: 10px;
+        }
+        #header .dark {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+        }
         #main {
             width: 100%;
-            background-color: #1C1C1C;
+            background-color: #0B0C0C;
+        }
+        .font__search {
+            padding: 100px 0;
+            display: flex;
+            flex-direction: column;
+            font-family: 'gmarket';
+            font-weight: 300;
+            width: 1300px;
+            margin: 0 auto;
+        }
+        .font__search input {
+            border: 1px solid #1C1C1C;
+            background-color: #18181c;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            font-size: 2rem;
+            width: 100%;
+            font-family: 'gmarket';
+            font-weight: 300;
+            color: #fff;
+        }
+        .font__search input:focus {
+            outline: 1px solid #fff;
+        }
+
+        .font__search span {
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 10px;
+            margin-left: 50px;
         }
 
         .font__sample {
@@ -31,6 +111,59 @@
             margin: 0 auto;
             color: #fff;
         }
+        .font__sample.display2 {
+            text-align: center;
+        }
+        .font__sample.display2 .font h3 {
+            display: none;
+        }
+        .font__sample.display2 .font > div > span:first-child {
+            font-size: 30px;
+        }
+
+        .font__sample.display3 {
+            flex-direction: column;
+            text-align: right;
+        }
+        .font__sample.display3 .font {
+            width: 100%;
+            flex-direction: row-reverse;
+        }
+        .font__sample.display3 .font h3 {
+            margin-bottom: 10px;
+        }
+        .font__sample.display3 .font > div {
+            text-align: left;
+        }
+
+        
+        .font__sample.display4 .font {
+            width: 16%;
+            text-align: center;
+            padding: 1.5vw 1vw;
+        }
+        .font__sample.display4 .font h3 {
+            display: none;
+        }
+        .font__sample.display4 .font > div > span:nth-child(1){
+            font-size: 20px;
+        }
+        .font__sample.display4 .font > div > span:nth-child(2),
+        .font__sample.display4 .font > div > span:nth-child(3),
+        .font__sample.display4 .font > div > span:nth-child(4) {
+            display: none;
+        }
+
+        .font__sample.display5 .font {
+            width: 100%;
+        }
+        .font__sample.display5 .font > div {
+            display: none;
+        }
+        .font__sample.display5 .font h3 {
+            margin-bottom: 0;
+        }
+
         .font {
             width: 24%;
             border: 1px solid #ffffff73;
@@ -40,7 +173,7 @@
             display: flex;
             justify-content: space-between;
             flex-direction: column;
-            transition: all 0.3s;
+            /* transition: all 0.3s; */
         }
         .font:hover {
             background-color: #fff;
@@ -73,16 +206,57 @@
             flex-wrap: wrap;
         }
         .footer__menu li {
-            width: 20%;
+            display: inline-block;
             list-style: none;
             line-height: 1.4;
             font-size: 20px;
+            margin-right: 10px;
+        }
+        .font__style {
+            color: #fff;
+            font-family: 'gmarket';
+            margin-top: 10px;
+            transition: opacity 0.3s ease;
+        }
+        .font__style h3 {
+            margin-bottom: 10px;
+        }
+        .font__style ul {
+            display: flex;
+        }
+        .font__style li {
+            list-style: none;
+            margin-right: 10px;
+        }
+        .font__style li a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #18181c;
+            padding: 10px 20px 10px 44px;
+            display: inline-block;
+            border-radius: 50px;
+            position: relative;
+        }
+        .font__style li.check a {
+            background-color: #5a5a75;
+        }
+        .font__style li.check a::before {
+            content: '';
+            background: url(icon/circle_check.svg) no-repeat center;
+            background-size: cover;
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            left: 14px;
+            top: 6px;
         }
     </style>
 </head>
 <body>
     <header id="header">
+        <h1>폰트어썸</h1>
 
+        <div class="dark" id="toggleButton"><img src="icon/light.svg" alt=""></div>
     </header>
     <!-- //header -->
 
@@ -92,7 +266,24 @@
                 <li></li>
             </ul>
         </div>
-        <div class="font__sample">
+        
+        <div class="font__search">
+            <!-- <span>* 총 249개의 폰트가 있습니다.</span> -->
+            <input type="search" placeholder="폰트를 검색하세요" id="fontSearch">
+
+            <div class="font__style">
+                <h3>display</h3>
+                <ul>
+                    <li class="check"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="font__sample display1">
             <div class="font gmarket300">
                 <h3 class="gmarket300">가능성을 믿어라, 그리고 꿈을 이루어라</h3>
                 <div>
@@ -3269,7 +3460,6 @@
                     <span>누구나 사용 가능</span>
                 </div>
             </div>
-            
         </div>
     </main>
     <!-- //main -->
@@ -3489,5 +3679,55 @@
         </div>
     </footer>
     <!-- //footer -->
+
+    <script>
+        const checks = document.querySelectorAll(".font__style li");
+        const fontSample = document.querySelector(".font__sample");
+    
+        checks.forEach((check, index) => {
+            check.addEventListener("click", () => {
+                checks.forEach((item) => {
+                    item.classList.remove("check");
+                });
+    
+                check.classList.add("check");
+    
+                fontSample.classList.forEach((className) => {
+                    if (className.startsWith("display")) {
+                        fontSample.classList.remove(className);
+                    }
+                });
+                fontSample.classList.add("display" + (index + 1));
+            });
+        });
+    
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+            const body = document.body;
+    
+            // Check if user's theme preference is stored in localStorage
+            const isDarkModeEnabled = localStorage.getItem("darkMode") === "true";
+    
+            // Toggle dark mode
+            if (isDarkModeEnabled) {
+                body.classList.remove("dark-mode");
+                localStorage.setItem("darkMode", "false");
+                toggleButton.querySelector("img").src = "icon/light.svg";
+            } else {
+                body.classList.add("dark-mode");
+                localStorage.setItem("darkMode", "true");
+                toggleButton.querySelector("img").src = "icon/light2.svg";
+            }
+        }
+    
+        const toggleButton = document.getElementById("toggleButton");
+        toggleButton.addEventListener("click", toggleDarkMode);
+    
+        // Apply dark mode on initial load based on user's preference
+        const isDarkModeEnabled = localStorage.getItem("darkMode") === "true";
+        if (isDarkModeEnabled) {
+            document.body.classList.add("dark-mode");
+        }
+    </script>
 </body>
 </html>
